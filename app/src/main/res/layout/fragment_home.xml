@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Statut du Service -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/service_status_text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_marginEnd="4dp"
+
+                />
+
+            <!-- Indicateur dynamique ON/OFF avec animation (Exemple: CircularProgressIndicator) -->
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+               android:id="@+id/serviceStatusIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                app:indicatorColor="@color/red"
+                app:trackColor="@color/grey"
+                app:indicatorSize="32dp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/serviceStatusText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/service_status_offline"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/red"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/btnGoToSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:padding="5dp"
+                android:text="@string/service_setting_btn"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <!-- Taux de succès d’envoi de SMS - Ring Chart -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/success_rate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginBottom="8dp"/>
+
+        <!--  Placeholder pour le Ring Chart (Remplacer par une librairie de charting) -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/light_grey"
+            android:layout_marginBottom="16dp">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pieChart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp" />
+
+
+        </FrameLayout>
+
+
+        <!-- Graphique des SMS envoyés (dernière heure/jour) - Line Chart -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sms_sent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Placeholder pour le Line Chart (Remplacer par une librairie de charting) -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/light_grey"
+            android:layout_marginBottom="16dp">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lineChart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp" />
+
+
+        </FrameLayout>
+
+        <!-- Logs récents d’envoi des SMS - Liste avec horodatage -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log_sms_sent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginBottom="8dp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/smsLogsRecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/light_grey"
+            android:layout_marginBottom="16dp"
+            tools:listitem="@layout/sms_item" />
+
+        <!-- Bouton d'action rapide - Activer/Désactiver le service -->
+        <Button
+            android:id="@+id/toggleServiceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_start_service"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+

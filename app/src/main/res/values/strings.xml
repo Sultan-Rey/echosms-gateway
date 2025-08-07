@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name" translatable="false">EchoSMS+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Tools text -->
+    <string name="offline">Pas d\'accès à Internet !</string>
+    <string name="sent_sms">SMS envoyé à</string>
+    <string name="msg_license_expired">Licence expirée.</string>
+    <string name="msg_license_update_failed">Erreur lors de la mise à jour de la licence.</string>
+    <string name="msg_license_validation_failed">Licence déjà utilisée ou inactive.</string>
+    <string name="msg_license_invalid">Clé de licence invalide.</string>
+    <string name="msg_license_error">Erreur lors de la validation de la licence.</string>
+    <!-- TODO: Service SMS text -->
+    <string name="app_in_background_title">EchoSMS en arrière-plan</string>
+    <string name="app_in_background_content">Envoi de SMS et écoute des mises à jour activés</string>
+    <!-- TODO: Home Fragment text -->
+    <string name="service_status_online" translatable="false">On</string>
+    <string name="service_status_pause" translatable="false">Pause</string>
+    <string name="service_status_offline" translatable="false">Off</string>
+    <string name="service_status_text">Statut du service:</string>
+    <string name="service_setting_btn">Parametres</string>
+    <string name="sms_sent">SMS envoyés (dernière heure/jour):</string>
+    <string name="success_rate">Taux de succès d’envoi de SMS:</string>
+    <string name="log_sms_sent">Logs récents d’envoi des SMS:</string>
+    <string name="button_text_stop_service">Désactiver le service</string>
+    <string name="button_text_start_service">Activer le service</string>
+    <!-- TODO: Setting Fragment text -->
+    <string name="firebase_collection" translatable="false">Firebase Collection</string>
+    <string name="changes">Modifier</string>
+    <string name="firebase_collection_hint" translatable="false">Collection Firebase</string>
+    <string name="plan_and_subscription">Plan et forfait</string>
+    <string name="standard" translatable="false">Standard</string>
+    <string name="subscription_ends_in">Fin de subscription dans</string>
+    <string name="three_months" translatable="false">3 months</string>
+    <string name="sms_limit_fees" translatable="false">1000 SMS Limit / 0.00 Fees</string>
+    <string name="see_more">Voir plus</string>
+    <string name="message_sending_failure">Échec d\'envoi de messages</string>
+    <string name="retry_sending">Re-essayer envoi</string>
+    <string name="retry_count" translatable="false">1</string>
+    <string name="plan" translatable="false">Plan</string>
+    <string name="benefits">Avantages</string>
+    <string name="license_key">Clé de licence</string>
+    <string name="license_key_hint" translatable="false">XXXX-XXXX-XXXX-XXXX-XXXX</string>
+    <string name="toast_add_valid_licence_key">Veuillez saisir une clé de licence valide</string>
+    <string name="toast_licence_not_validate">Licence Non valide, re-essayer</string>
+    <string name="toast_validate_licence">Licence validée avec succès!</string>
+    <string name="dialog_title_validation_failed">Erreur de verification</string>
+    <string name="dialog_msg_error">Erreur</string>
+    <string name="dialog_title_expiring">Expiration de License</string>
+    <string name="dialog_msg_renew_license">Votre licence n\'est pas valide ou a expiré. Un retour dans les parametres pour une configuration est exigé</string>
+    <!-- TODO: Subscription Info Fragment text -->
+    <string name="license_details">Détails de la licence</string>
+    <string name="device_id">ID de l\'appareil</string>
+    <string name="purchase_date">Date d\'achat</string>
+    <string name="expiry_date">Date d\'expiration</string>
+    <string name="subscription_delay">Délai d\'abonnement</string>
+    <string name="status">Statut</string>
+    <string name="excess_costs">Coûts d\'excès</string>
+    <string name="renewal_costs">Coûts de renouvellement</string>
+    <string name="toast_loading_verification">Patientez un instant...</string>
+    <string name="times" translatable="false">times</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

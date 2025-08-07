@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EchoSMS+</string>
+    <string name="offline">No network available</string>
+    <string name="sent_sms">SMS sent to</string>
+    <string name="app_in_background_title">EchoSMS in background</string>
+    <string name="app_in_background_content">SMS sending and listening activated</string>
+    <string name="service_status_text">Service Status</string>
+    <string name="service_setting_btn">Settings</string>
+    <string name="sms_sent">SMS sent (last hours/days)</string>
+    <string name="success_rate">SMS sending success rate</string>
+    <string name="log_sms_sent">Log of recent SMS sent</string>
+    <string name="button_text_stop_service">Unable the service</string>
+    <string name="button_text_start_service">Enable the service</string>
+    <string name="changes">Change</string>
+    <string name="plan_and_subscription">Plan and subscription</string>
+    <string name="subscription_ends_in">End of subscription in</string>
+    <string name="see_more">See more</string>
+    <string name="message_sending_failure">Messages sending failed</string>
+    <string name="retry_sending">Retry to send</string>
+    <string name="benefits">Advantages</string>
+    <string name="license_key">License Key</string>
+    <string name="toast_add_valid_licence_key">Please provide a valid license key</string>
+    <string name="toast_licence_not_validate">License unavailable, retry again</string>
+    <string name="toast_validate_licence">License validated sucessfully</string>
+    <string name="dialog_title_validation_failed">Verification error</string>
+    <string name="dialog_msg_error">error</string>
+    <string name="dialog_title_expiring">License expired</string>
+    <string name="dialog_msg_renew_license">Your licence is unavailable or expired. turn back to setting for configuration required</string>
+    <string name="license_details">License details</string>
+    <string name="device_id">Device Id</string>
+    <string name="purchase_date">Purchase Date</string>
+    <string name="expiry_date">Expiration date</string>
+    <string name="subscription_delay">Subscription delay</string>
+    <string name="status">Status</string>
+    <string name="excess_costs">Exceed costs</string>
+    <string name="renewal_costs">Renewal cost</string>
+    <string name="toast_loading_verification">Wait a minute</string>
+    <string name="msg_license_expired">License expired.</string>
+    <string name="msg_license_update_failed">Error updating license.</string>
+    <string name="msg_license_validation_failed">License already used or inactive.</string>
+    <string name="msg_license_invalid">Invalid license key.</string>
+    <string name="msg_license_error">Error validating license.</string>
+</resources>

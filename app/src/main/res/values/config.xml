@@ -1,0 +1,15 @@
+<resources>
+    <!-- Paramètres de retry -->
+    <integer name="sms_retry_delay_seconds">30</integer>
+    
+    <!-- Limites de vitesse -->
+    <integer name="sms_batch_size">10</integer>
+    <integer name="sms_batch_delay_seconds">60</integer>
+    <integer name="sms_max_per_minute">30</integer>
+    
+    <!-- Paramètres de timeout -->
+    <integer name="sms_timeout_seconds">30</integer>
+    
+    <!-- Paramètres de reconnexion -->
+    <integer name="reconnect_delay_seconds">10</integer>
+</resources>

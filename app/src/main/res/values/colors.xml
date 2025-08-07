@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FF9800</color>
+    <!-- TODO: Home Fragment Colors-->
+    <color name="green">#4CAF50</color>
+    <color name="red">#FA020A</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="light_grey">#EEEEEE</color>
+    <!-- TODO: Subscription Fragment Colors -->
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="colorBackground">#E3F2FD</color>
+    <color name="colorDivider">#BBDEFB</color>
+    <color name="colorText">#212121</color>
+    <color name="colorPrimary">#1976D2</color>
+</resources>
